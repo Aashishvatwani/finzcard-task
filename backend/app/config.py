@@ -3,7 +3,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 WORKSPACE_DIR = BASE_DIR.parent
-DATA_DIR = WORKSPACE_DIR / "data"
+DATA_DIR = WORKSPACE_DIR / "data" if (WORKSPACE_DIR / "data").exists() else BASE_DIR / "data"
 DB_PATH = BASE_DIR / "financial_review.db"
 
 # Variance materiality thresholds
