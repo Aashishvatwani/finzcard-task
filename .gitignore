@@ -1,0 +1,136 @@
+# ==============================================================================
+# Git Ignore Configuration - Financial Review System Monorepo
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python & Virtual Environments (Backend)
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+/build/
+/dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage (pytest, coverage.py)
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ------------------------------------------------------------------------------
+# 2. Node.js & Next.js (Frontend)
+# ------------------------------------------------------------------------------
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnp/
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js Build Output
+.next/
+*/.next/
+out/
+*/out/
+frontend/build/
+frontend/dist/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel Deployment Cache
+.vercel/
+*/.vercel/
+
+# ------------------------------------------------------------------------------
+# 3. Environment Variables & Secrets (CRITICAL: Do Not Commit)
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+frontend/.env
+frontend/.env*.local
+backend/.env
+backend/.env*.local
+*.pem
+*.key
+*.cert
+*.crt
+
+# ------------------------------------------------------------------------------
+# 4. Database Files & Runtime State
+# ------------------------------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+backend/financial_review.db
+backend/*.db
+
+# Whitelist source files & directories that must ALWAYS be tracked
+!data/
+!data/restaurant_transactions.csv
+!backend/data/
+!**/src/**
+
+# ------------------------------------------------------------------------------
+# 5. IDEs, Editors & OS Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# 6. Local Scratch Scripts & Temporary Logs
+# ------------------------------------------------------------------------------
+test_chat.py
+check_reconcile.py
+*.log
+scratch/
