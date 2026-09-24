@@ -1,0 +1,26 @@
+Transaction ID,Date,Description,Counterparty,Amount,Method
+T2001,2026-04-01,Rent,Landlord,-$9000.00,ACH
+T2002,2026-04-02,Food inventory purchase - Sysco,Sysco,-$4320.50,ACH/card
+T2003,2026-04-03,POS/software subscription,Toast,-$875.00,ACH/card
+T2004,2026-04-04,Insurance premium,Next Insurance,-$1250.00,ACH
+T2005,2026-04-05,Food inventory purchase - US Foods,US Foods,-$4980.25,ACH/card
+T2006,2026-04-06,Beverage inventory purchase - Southern Glazer's,Southern Glazer's,-$1940.00,ACH/card
+T2007,2026-04-07,POS batch deposit - food sales week 1,Toast POS,$19450.00,Bank deposit
+T2008,2026-04-07,POS batch deposit - beverage sales week 1,Toast POS,$5820.00,Bank deposit
+T2009,2026-04-07,Catering invoice payment week 1,Corporate Catering Client,$1500.00,ACH deposit
+T2010,2026-04-08,Delivery marketplace payout week 1,DoorDash/Uber Eats,$4900.00,ACH deposit
+T2011,2026-04-08,Refunds and discounts week 1,Toast POS,-$450.00,POS adjustment
+T2012,2026-04-09,To-go packaging and disposables,Restaurant Depot,-$1120.00,Card
+T2013,2026-04-10,Utilities - electric/gas/water,City Utilities,-$2150.00,ACH
+T2014,2026-04-12,Social media advertising,Meta Ads,-$600.00,Card
+T2015,2026-04-13,Social media advertising,Meta Ads,-$600.00,Card
+T2016,2026-04-15,Payroll - hourly kitchen and FOH wages,Gusto Payroll,-$17500.00,ACH
+T2017,2026-04-15,Management salary,Payroll Direct Deposit,-$6500.00,ACH
+T2018,2026-04-15,Payroll taxes and benefits,Gusto Payroll,-$4100.00,ACH
+T2019,2026-04-16,New commercial espresso machine,Espresso Solutions,-$3400.00,Wire
+T2020,2026-04-18,POS batch deposit - food sales week 2,Toast POS,$20100.00,Bank deposit
+T2021,2026-04-18,POS batch deposit - beverage sales week 2,Toast POS,$6100.00,Bank deposit
+T2022,2026-04-20,Unknown consulting retainer,Apex Advisory Inc,-$1250.00,Check
+T2023,2026-04-22,Cleaning and linen service,Cintas,-$1100.00,ACH
+T2024,2026-04-25,Beer and wine delivery,Craft Beer Distributor,-$2100.00,Card
+T2025,2026-04-28,Owner distribution draw,Owner Personal Account,-$4000.00,Transfer
